@@ -14,22 +14,22 @@
 
         <img src="image.jpg" alt="Описание изображения" width="300" height="200" border="1" />
 
-        <form>
-            <input method="POST"/>
+        <form action="submit.php" method="POST">
+            <input type="text" name="username" placeholder="Введите имя" />
             <button type="submit">Отправить</button>
         </form>
 
-        <video src="video.mp4" autoplay ></video>
+        <video src="video.mp4" autoplay controls width="600" height="400"></video>
 
-        <audio></audio>
+        <audio src="audio.mp3" controls loop></audio>
 
-        <table>
+        <table cellspacing="5" cellpadding="5">
             <tr>
                 <td>Ячейка 1</td>
                 <td>Ячейка 2</td>
             </tr>
         </table>
 
-        <iframe></iframe>
+        <iframe src="https://example.com"></iframe></iframe>
     </body>
 </html>
